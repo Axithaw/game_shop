@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+      @apply py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+    }
+    
+    .list-content-style {
+         @apply  flex gap-2  p-2  rounded-md hover:bg-purple-100 hover:shadow-sm cursor-pointer active:bg-purple-500 active:text-white 
+    }
+  }
